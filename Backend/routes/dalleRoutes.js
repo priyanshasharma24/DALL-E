@@ -30,8 +30,8 @@ router.route("/").get((req, res) => {
       url: 'https://open-ai21.p.rapidapi.com/texttoimage2',
       headers: {
         'content-type': 'application/json',
-        'X-RapidAPI-Key': '5aee74c5c0msh41b883d6d3d2ef9p1f60bajsn2fe14dccd82e',
-        'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com'
+          'X-RapidAPI-Key': '055e83ee40msh5bf663d240ffbd5p15d9bcjsn928b20dbf65c',
+    'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com'
       },
       data: {
         text: prompt
