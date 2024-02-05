@@ -9,8 +9,9 @@ const {connectDB} = require('./mongodb/connect');
 const app = express();
 
 app.use(cors({
-    origin:'*'
-}))
+  origin: 'http://localhost:3000/', // replace with your frontend's URL
+  credentials: true, // allow credentials (if needed)
+}));
 
 app.use(express.json());
 
